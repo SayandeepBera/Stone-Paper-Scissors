@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+/* Heading */
+h1{
+    background-color: #081b31;
+    color: white;
+    height: 5rem;
+    line-height: 5rem;
+}
+
+/* choices */
+.choice{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover{
+    cursor: pointer;
+    background-color: #081b31;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+/* Score board */
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+}
+
+#user-score, #com-score{
+    font-size: 4rem;
+}
+
+/* massage container */
+.msg-container{
+    margin-top: 3rem;
+}
+
+#msg{
+    font-size: 1.8rem;
+    background-color: #081b31;
+    color: #fff;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+/* reset game */
+.btn{
+    margin-top: 50px;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 1.25rem;
+    background-color: #EB5B00;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+

@@ -1,0 +1,15 @@
+# Stone Paper Scissors Game Using HTML, CSS, JavaScript
+Stone Paper Scissors (also called Rock Paper Scissors) is a simple hand game usually played between two people.
+Each player randomly chooses one of three things:
+
+* Stone (Rock) 🪨
+* Paper 📄
+* Scissors ✂️
+
+Rules:
+
+* Stone beats Scissors (Stone   crushes Scissors)
+* Scissors beats Paper (Scissors cut Paper)
+* Paper beats Stone (Paper covers Stone)
+
+If both players choose the same thing, it’s a draw!

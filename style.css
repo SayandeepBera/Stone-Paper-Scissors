@@ -104,6 +104,11 @@ img{
         font-size: 1.5rem;
         padding: 0.8rem;
         border-radius: 0.9rem;
+        display: block;
+    }
+    .msg-container{
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .btn{
         font-size: 1.15rem;

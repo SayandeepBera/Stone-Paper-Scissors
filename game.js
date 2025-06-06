@@ -86,4 +86,6 @@ btn.addEventListener("click",()=>{
     comScore=0;
     userId.innerText=userScore;
     comId.innerText=comScore;
+    showMsg.innerText="Play your move";
+    showMsg.style.backgroundColor = "#081b31";
 })

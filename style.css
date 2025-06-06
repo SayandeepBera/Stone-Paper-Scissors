@@ -83,3 +83,24 @@ img{
     cursor: pointer;
 }
 
+@media(max-width : 600px){
+    img{
+        height: 90px;
+        width: 90px;
+    }
+    .choices{
+        /* display: flex; */
+        gap: 1rem;
+    }
+    #user-score, #com-score{
+        font-size: 3rem;
+    }
+    #msg{
+        font-size: 1.5rem;
+        padding: 0.8rem;
+    }
+    .btn{
+        font-size: 1.15rem;
+        padding: 0.8rem;
+    }
+}
